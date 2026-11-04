@@ -49,14 +49,14 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/pybinolla/pybinolla.git
+git clone https://github.com/bahadjdz/pybinolla.git
 cd pybinolla
 
-# Install in editable mode
-pip install -e .
+# Install dependencies
+pip install -r requirements.txt
 
-# Optional: install fast JSON serializer for high-frequency ticks
-pip install -e ".[fast]"
+# Or install as a package (editable mode)
+pip install -e .
 ```
 
 ---
