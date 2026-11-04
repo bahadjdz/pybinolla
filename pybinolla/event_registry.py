@@ -3,7 +3,6 @@ pybinolla/event_registry.py
 ============================
 Async key-value event store that lets the WebSocket message handler
 resolve awaiting coroutines by name (e.g. "candles_ready_EURUSD").
-Identical pattern to pyquotex's EventRegistry.
 """
 
 from __future__ import annotations

@@ -2,7 +2,6 @@
 pybinolla/connection.py
 ========================
 WebSocket state machine + event primitives.
-Mirrors pyquotex's ConnectionState + event-driven wait helpers.
 """
 
 from __future__ import annotations
@@ -32,7 +31,7 @@ def _signal_event(event: Optional[asyncio.Event],
 
 
 # ---------------------------------------------------------------------------
-# Wait helpers (identical pattern to pyquotex)
+# Wait helpers
 # ---------------------------------------------------------------------------
 async def wait_until(predicate, *, timeout: float = 10.0,
                      poll_interval: float = 0.05) -> None:
@@ -87,7 +86,7 @@ class ConnectionState:
         self.check_websocket_if_error:  bool = False
         self.websocket_error_reason:    Optional[str] = None
 
-        # Mutual exclusion flags (same as pyquotex)
+        # Mutual exclusion flags
         self.ssl_Mutual_exclusion:       bool = False
         self.ssl_Mutual_exclusion_write: bool = False
 

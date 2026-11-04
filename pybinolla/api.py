@@ -2,7 +2,6 @@
 pybinolla/api.py
 =================
 BinollaAPI — low-level core combining HTTP auth + WebSocket transport.
-Mirrors pyquotex's QuotexAPI class.
 """
 
 from __future__ import annotations
@@ -82,7 +81,7 @@ class BinollaAPI:
         self._last_send_at: float        = 0.0
 
     # ------------------------------------------------------------------
-    # Rate limiting (identical to pyquotex)
+    # Rate limiting
     # ------------------------------------------------------------------
     def _apply_rate_limit(self) -> None:
         now = time.time()

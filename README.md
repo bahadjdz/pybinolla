@@ -11,7 +11,7 @@
   <a href="#"><img src="https://img.shields.io/badge/AsyncIO-Event--Driven-4CAF50?style=for-the-badge" alt="AsyncIO" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License" /></a>
   <a href="#"><img src="https://img.shields.io/badge/WebSocket-Socket.IO%20v4-blueviolet?style=for-the-badge" alt="Socket.IO v4" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge" alt="Stable" /></a>
+  <a href="https://t.me/llldevl"><img src="https://img.shields.io/badge/Telegram-@llldevl-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram @llldevl" /></a>
 </p>
 
 <p align="center">
@@ -53,7 +53,9 @@
 | **Martingale & Stop-Loss Helpers** | ❌ Pro Only | 🔥 Automated |
 | **Auto-Reconnect Watchdog** | Basic | 🔥 Zero-downtime |
 
-> 💡 **Want the Pro version?** Open a GitHub Discussion or contact via Telegram.
+> 💎 **Interested in pybinolla Pro?**  
+> Unlock Real Account Live Trading, Turbo/Blitz Modes, Auto-Payout Filters, and Copy Trading.  
+> 📩 Contact directly on Telegram: **[@llldevl](https://t.me/llldevl)** or open a GitHub inquiry.
 
 ---
 
@@ -229,7 +231,7 @@ pybinolla communicates directly with Binolla's private WebSocket cluster:
 ## ❓ FAQ
 
 **Q: Does pybinolla work with a real Binolla account?**
-> Real account trading is available in **pybinolla Pro** only. The free edition fully supports demo trading and market data.
+> Real account trading is available in **pybinolla Pro** only. Contact [@llldevl](https://t.me/llldevl) on Telegram for licensing. The free edition fully supports demo trading and market data.
 
 **Q: Do I need a Binolla account?**
 > Yes. Create a free account at [binolla.com](https://binolla.com) and use your email/password.

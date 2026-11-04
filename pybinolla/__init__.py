@@ -3,7 +3,6 @@ pybinolla - Unofficial Python API for Binolla Trading Platform
 ==============================================================
 Free Community Edition.
 A fully async, event-driven client library for Binolla (binolla.com).
-Inspired by the pyquotex architecture.
 
 License : MIT
 """

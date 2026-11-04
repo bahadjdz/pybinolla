@@ -36,3 +36,4 @@ Thank you for your interest in contributing to **pybinolla**! We welcome bug rep
 
 ## License
 By contributing to pybinolla, you agree that your contributions will be licensed under the project's [MIT License](LICENSE).
+

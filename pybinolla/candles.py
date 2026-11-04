@@ -2,7 +2,6 @@
 pybinolla/candles.py
 =====================
 Candle aggregation helpers.
-Mirrors pyquotex's calculate_candles / process_candles_v2 / merge_candles.
 """
 
 from __future__ import annotations

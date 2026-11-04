@@ -3,7 +3,6 @@ pybinolla/client.py
 ====================
 Binolla — high-level public API.
 This is the class users import and interact with.
-Mirrors pyquotex's Quotex class.
 """
 
 from __future__ import annotations
@@ -107,7 +106,7 @@ class Binolla:
             raise BinollaProFeatureError(
                 "Real account trading is exclusively available in pybinolla-pro.\n"
                 "The Free Community Edition supports DEMO account trading only.\n"
-                "To upgrade to Pro, see: https://github.com/pybinolla/pybinolla"
+                "To upgrade to Pro, contact on Telegram: https://t.me/llldevl or visit https://github.com/bahadjdz/pybinolla"
             )
         self._account_type = account
         self._api = BinollaAPI(
@@ -169,7 +168,7 @@ class Binolla:
             raise BinollaProFeatureError(
                 "Real account trading is exclusively available in pybinolla-pro.\n"
                 "The Free Community Edition supports DEMO account trading only.\n"
-                "To upgrade to Pro, see: https://github.com/pybinolla/pybinolla"
+                "To upgrade to Pro, contact on Telegram: https://t.me/llldevl or visit https://github.com/bahadjdz/pybinolla"
             )
         if self._api:
             self._account_type = account
@@ -250,7 +249,6 @@ class Binolla:
                                      ) -> List[Candle]:
         """
         Fetch a large historical range using parallel workers.
-        Mirrors pyquotex's get_historical_candles exactly.
 
         Parameters
         ----------
@@ -356,7 +354,7 @@ class Binolla:
             raise BinollaProFeatureError(
                 "Real account trading is exclusively available in pybinolla-pro.\n"
                 "The Free Community Edition supports DEMO account trading only.\n"
-                "To upgrade to Pro, see: https://github.com/pybinolla/pybinolla"
+                "To upgrade to Pro, contact on Telegram: https://t.me/llldevl or visit https://github.com/bahadjdz/pybinolla"
             )
         return self._api.buy(
             asset     = asset,

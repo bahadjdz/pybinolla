@@ -182,7 +182,7 @@ class BinollaLogin(BrowserSession):
 
 
 # ---------------------------------------------------------------------------
-# Session file helpers (mirrors pyquotex's load_session / save_session)
+# Session file helpers
 # ---------------------------------------------------------------------------
 _SESSION_FILE = Path("binolla_session.json")
 
