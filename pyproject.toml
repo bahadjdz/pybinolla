@@ -5,13 +5,13 @@ build-backend = "setuptools.backends.legacy:build"
 [project]
 name = "pybinolla"
 version = "1.0.0"
-description = "Unofficial async Python API client for the Binolla trading platform"
+description = "Async Python API library for the Binolla binary options trading platform — WebSocket, candles, demo trading, real-time quotes"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [
-    { name = "PyBinolla Community" }
+    { name = "pybinolla" }
 ]
-keywords = ["binolla", "binary-options", "trading", "quotex", "pyquotex", "algo-trading", "asyncio"]
+keywords = ["binolla", "binolla-api", "binolla-bot", "binolla-python", "binary-options", "binary-options-bot", "trading-bot", "algo-trading", "asyncio", "websocket", "socket-io", "trading-api", "candles", "pybinolla"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",

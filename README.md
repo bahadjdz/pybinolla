@@ -1,21 +1,32 @@
-# pybinolla (Community Edition)
+
+# pybinolla
+
+<p align="center">
+  <img src="logo.png" alt="pybinolla logo" width="160" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" />
   <img src="https://img.shields.io/badge/Binolla-API-00B0FF?style=for-the-badge" alt="Binolla API" />
   <img src="https://img.shields.io/badge/AsyncIO-Event--Driven-4CAF50?style=for-the-badge" alt="AsyncIO" />
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License" />
+  <img src="https://img.shields.io/badge/WebSocket-Socket.IO%20v4-blueviolet?style=for-the-badge" alt="Socket.IO v4" />
 </p>
 
-> **Unofficial async Python API library for the [Binolla](https://binolla.com) binary options trading platform.**  
-> Inspired by [pyquotex](https://github.com/cleitonleonel/pyquotex) — built with the same enterprise-grade architecture, TLS spoofing, and event-driven async streaming.
+<p align="center">
+  <b>The Python library for the <a href="https://binolla.com">Binolla</a> binary options platform.</b><br/>
+  Async · Event-driven · WebSocket · Demo Trading · Candle Data · Real-time Quotes
+</p>
+
+> **pybinolla** is an unofficial, open-source Python library that gives you full programmatic access to the Binolla trading platform.  
+> Built on top of native `asyncio`, Socket.IO v4, and a Cloudflare-aware HTTP session — giving you low-latency, production-ready access to market data and demo trading.
 
 ---
 
 ## ⚡ Features Comparison: Community vs Pro
 
 | Feature | 🆓 Community (Free) | 💎 Pro Edition |
-|:---|:---:|:---:|
+| :--- | :---: | :---: |
 | **Platform Login & Cloudflare Bypass** | ✅ Full Support | ✅ Full Support |
 | **Session Persistence (`binolla_session.json`)** | ✅ Yes | ✅ Yes |
 | **Real-time Price & Tick Streaming** | ✅ Yes (~3 ticks/s) | ✅ Yes (Ultra-low latency) |
@@ -149,6 +160,7 @@ pybinolla/
 ## 🔌 Wire Protocol Details
 
 Binolla runs an event-driven Engine.IO / Socket.IO v4 cluster:
+
 - **WebSocket Gateway:** `wss://ws3.binolla.com/socket.io/?EIO=4&transport=websocket`
 - **Handshake:** `0{"sid":...} -> 40 -> 40{"sid":...}`
 - **Authentication:** `42["authorization", {"token": "<JWT>", "userAccountType": 1, "uaid": 1}]`
@@ -170,3 +182,8 @@ Binolla runs an event-driven Engine.IO / Socket.IO v4 cluster:
 
 Distributed under the **MIT License**. See `LICENSE` for details.
 
+---
+
+## 🔎 Keywords
+
+`binolla` · `binolla api` · `binolla python` · `binolla bot` · `binolla trading bot` · `binary options python` · `binary options api` · `binary options bot` · `pybinolla` · `binolla websocket` · `binolla async` · `binolla candles` · `binolla demo trading` · `python trading bot` · `asyncio trading` · `socket.io trading`
