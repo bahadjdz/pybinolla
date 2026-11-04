@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "pybinolla"
+version = "1.0.0"
+description = "Unofficial async Python API client for the Binolla trading platform"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "PyBinolla Community" }
+]
+keywords = ["binolla", "binary-options", "trading", "quotex", "pyquotex", "algo-trading", "asyncio"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.10"
+
+dependencies = [
+    "websocket-client>=1.6.0",
+    "requests>=2.31.0",
+    "certifi>=2024.0.0",
+    "beautifulsoup4>=4.12.0",
+    "fake-useragent>=1.4.0",
+    "urllib3>=2.0.0",
+]
+
+[project.optional-dependencies]
+fast = ["orjson>=3.9.0"]
+dev  = ["pytest>=7.0", "pytest-asyncio>=0.23", "black", "ruff"]
+
+[project.urls]
+Homepage = "https://github.com/pybinolla/pybinolla"
+Documentation = "https://github.com/pybinolla/pybinolla#readme"
+Issues = "https://github.com/pybinolla/pybinolla/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+
